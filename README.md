@@ -6,6 +6,7 @@
 PT
 
 📌 Visão Geral
+
 A segmentação de clientes com base em parâmetros pré-definidos como gastos com compras, renda anual, idade, sexo ajudam na formulação de estratégias de acordo com o perfil desses clientes. 
 
 Este projeto tem como objetivo segmentar esses clientes de acordo com os parâmetros fornecidos no dataset, usando kmeans, as bibibliotecas scikitlearn, matplotlib, pandas, técnicas de aprendizado não supervisionado de clusterização e  redução de diemnsionalidade
@@ -17,6 +18,7 @@ O conjunto de dados contém:
 ✅ Pontuação de Gastos (1-100) (métrica definida pelo supermercado com base no comportamento de compra)
 
 🎯 Objetivo
+
 Identificar grupos de clientes com características semelhantes para auxiliar o supermercado em:
 
 Estratégias de marketing personalizadas
@@ -29,6 +31,7 @@ Melhorias na experiência do cliente
 EN
 
 ## **📌 Overview**  
+
 This project aims to segment supermarket customers based on demographic and behavioral data using **unsupervised machine learning (K-Means Clustering)**.  
 
 The dataset includes:  

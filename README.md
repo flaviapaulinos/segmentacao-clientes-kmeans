@@ -9,7 +9,7 @@ PT
 
 A segmentação de clientes com base em parâmetros pré-definidos como gastos com compras, renda anual, idade, sexo ajudam na formulação de estratégias de acordo com o perfil desses clientes. 
 
-Este projeto tem como objetivo segmentar esses clientes de acordo com os parâmetros fornecidos no dataset, usando kmeans, as bibibliotecas scikitlearn, matplotlib, pandas, técnicas de aprendizado não supervisionado de clusterização e  redução de diemnsionalidade
+Este projeto tem como objetivo segmentar esses clientes de acordo com os parâmetros fornecidos no dataset, usando clusterização (kmeans), as bibibliotecas scikitlearn, matplotlib, pandas, e redução de diemnsionalidade
 
 O conjunto de dados contém:
 ✅ Idade

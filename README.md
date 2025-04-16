@@ -243,6 +243,33 @@ Seaborn              |     0.13.2
 
 Versão do Python: 3.12.3
 
+## Organização do projeto
+
+```
+
+├── dados              <- Arquivos de dados para o projeto.
+├── modelos            <- Modelos gerados para o projeto.
+|
+├── notebooks          <- Cadernos Jupyter. 
+│
+|   └──src             <- Código-fonte para uso neste projeto.
+|      │
+|      ├── __init__.py  <- Torna um módulo Python
+|      ├── auxiliares.py<- Funções auxiliares do projeto
+|      ├── config.py    <- Configurações básicas do projeto
+|      ├── graficos.py  <- Scripts para criar visualizações exploratórias e orientadas a resultados
+|      └── modelos.py   <- Funções utilizadas no modelo
+|
+├── referencias        <- Dicionários de dados.
+├── relatorios         <- Relatório gerado durante o projeto utilizando a biblioteca [ydata-profiling]
+│   └── imagens        <- Gráficos e figuras gerados para serem usados em relatórios
+├── ambiente.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
+├── requirements.txt   <- O arquivo para instalar dependências via pip
+├── LICENSE            <- Licença de código aberto se uma for escolhida
+├── README.md          <- README principal para desenvolvedores que usam este projeto.
+|
+```
+
 ## Configuração do ambiente
 
 1. Faça o clone do repositório que será criado a partir deste modelo.
